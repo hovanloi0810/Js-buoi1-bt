@@ -9,9 +9,9 @@
 // Output:
 //     - in gái trị vietNamDong
 
-const USD = 23.500;
+const USD = 23500;
 
 var vietNamDong = 2;
 
-vietNamDong *= USD
-console.log(vietNamDong.toFixed(3) + " VND")
+var result = vietNamDong * USD
+console.log(result.toLocaleString("vn") + " VND")
